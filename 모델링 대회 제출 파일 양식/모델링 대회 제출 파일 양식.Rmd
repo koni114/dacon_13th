@@ -1,0 +1,95 @@
+---
+title: "Dacon 13회 퇴근시간 버스승차인원 예측 모델링 경진대회"
+author: "허사장과 김사장" # 팀명
+date: "2019년 12월 6일" # 제출날짜
+output: 
+  html_document:
+    toc:  true
+    toc_float:  true
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 모델링 코드 작성방법
+
+A 코드 관련
+
+1) 입상자는 코드 제출 필수. 제출 코드는 예측 결과를 리더보드 점수로 복원할 수 있어야 함
+
+2) 코드 제출시 확장자가 R user는 R or .rmd. Python user는 .py or .ipynb
+
+3) 코드에 ‘/data’ 데이터 입/출력 경로 포함 제출 or R의 경우 setwd(" "), python의 경우 os.chdir을 활용하여 경로 통일
+
+4) 전체 프로세스를 일목요연하게 정리하여 주석을 포함하여 하나의 파일로 제출
+
+5) 모든 코드는 오류 없이 실행되어야 함(라이브러리 로딩 코드 포함되어야 함).
+
+6) 코드와 주석의 인코딩은 모두 UTF-8을 사용하여야 함
+
+ 
+B 외부 데이터 관련
+
+1) 외부 공공 데이터 (날씨 정보 등) 사용이 가능하나, 코드 제출 시 함께 제출
+
+2) 공공 데이터 외의 외부 데이터는 법적인 제약이 없는 경우에만 사용 가능
+
+3) 외부 데이터를 크롤링할 경우, 크롤링 코드도 함께 제출
+
+## 1. 라이브러리 및 데이터
+Library & Data
+
+```{r, message = FALSE}
+# Library 예시
+library(dplyr) # 데이터 가공, version: 3.5.2
+
+setwd("파일경로")
+
+# 사용한 데이터 불러오기 예시
+# sample_data <- read.csv("../DATA/sample.csv") # 대회 데이터
+# crawled_data <- read.csv("../DATA/crawling.csv") # 크롤링 및 외부 데이터
+```
+Crawling Code(크롤링 진행 시 기입)
+```{r, message = FALSE}
+
+```
+
+## 2. 데이터 전처리 
+Data Cleansing & Pre-Processing
+
+```{r, message = FALSE}
+
+```
+
+## 3. 탐색적 자료분석
+Exploratory Data Analysis
+
+```{r, message = FALSE}
+
+```
+
+
+
+## 4. 변수 선택 및 모델 구축
+Feature Engineering & Initial Modeling
+
+```{r, message = FALSE}
+
+```
+
+## 5. 모델 학습 및 검증
+Model Tuning & Evaluation
+
+```{r, message = FALSE}
+
+```
+
+## 6. 결과 및 결언
+Conclusion & Discussion
+
+
+
+
+
