@@ -1,0 +1,46 @@
+version1 : 지역별로 나눈 후, 제주만 3 그룹으로 나누어 계산해보자(XGBOOST)
+xgb_model_jeju1 : 1.481961
+xgb_model_jeju2 : 5.544569
+xgb_model_jeju3 : 3.464945
+xgb_model_seoguipo : 1.857499
+xgb_model_gosan : 1.501073
+xgb_model_sungsan : 1.303825
+
+
+version2 : 지역별로 나눈 후, 제주만 4 그룹으로 나누어 계산
+56088
+143086
+2380
+185739
+xgb_model_jeju1 : 5.50863
+xgb_model_jeju2 : 	1.486338
+xgb_model_jeju3 : 6.368495
+xgb_model_jeju4 : 3.413269	
+xgb_model_seoguipo : 1.814585
+xgb_model_gosan : 1.497495
+xgb_model_sungsan : 1.316476
+
+
+
+version3 : 지역별로 나눈 후, 제주만 3 그룹으로 나누어 계산해보자(RANDOMFOREST)
+
+
+
+
+version4 : 지역별로 나눈 후, 제주만 3 그룹. 영향 인자만 추가(XGBOOST)
+
+xgb_model_jeju1 : 5.912015
+xgb_model_jeju2 : 1.52187
+xgb_model_jeju3 : 3.352233
+xgb_model_seoguipo : 1.811064
+xgb_model_gosan : 1.496407	
+xgb_model_sungsan : 1.307312	
+
+version20 : 0인 값들은 0으로 예측. XGBOOST 동일
+
+xgb_model_jeju1 : 3.314098
+xgb_model_jeju2 : 5.594554	
+xgb_model_jeju3 : 1.460629	
+xgb_model_seoguipo : 1.875059
+xgb_model_gosan : 1.585916
+xgb_model_sungsan : 1.394461
